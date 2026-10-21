@@ -186,13 +186,47 @@
             <span>SERVIÇOS</span>
             <i class="fa-solid fa-chevron-down text-[10px]"></i>
           </a>
-          <!-- Dropdown de Categorias -->
-          <div class="absolute left-0 top-full w-64 bg-white shadow-xl border border-slate-100 rounded-b-xl py-2 hidden group-hover:block z-50 text-[11px]">
-            <a href="#refrigeracao" class="block px-4 py-2.5 hover:bg-slate-50 hover:text-brand-sky">❄️ Refrigeração e Ar-Condicionado</a>
-            <a href="#hidraulica" class="block px-4 py-2.5 hover:bg-slate-50 hover:text-brand-sky">💧 Hidráulica, Hydra e Bombas</a>
-            <a href="#eletrica" class="block px-4 py-2.5 hover:bg-slate-50 hover:text-brand-sky">⚡ Elétrica e Ventiladores</a>
-            <a href="#alvenaria" class="block px-4 py-2.5 hover:bg-slate-50 hover:text-brand-sky">🧱 Alvenaria, Portas e Fechaduras</a>
-            <a href="#jardim" class="block px-4 py-2.5 hover:bg-slate-50 hover:text-brand-sky">🌿 Jardinagem e Dedetização</a>
+          <!-- Dropdown Completo de Serviços (Idêntico ao Print de Exemplo) -->
+          <div class="absolute left-0 top-full w-64 bg-white shadow-2xl border border-slate-100 py-5 px-7 hidden group-hover:block z-50 space-y-4 text-[11px] font-extrabold tracking-wider uppercase text-neutral-900">
+            <a href="#servico-refrigeracao" class="block hover:text-brand-orange transition leading-snug">
+              CONSERTO DE GELADEIRA E FREEZER
+            </a>
+            <a href="#servico-ar-condicionado" class="block hover:text-brand-orange transition leading-snug">
+              AR-CONDICIONADO (CLIMATIZAÇÃO)
+            </a>
+            <a href="#servico-desentupimento" class="block hover:text-brand-orange transition leading-snug">
+              DESENTUPIMENTO
+            </a>
+            <a href="#servico-caixa-acoplada" class="block hover:text-brand-orange transition leading-snug">
+              CONSERTO DE CAIXA ACOPLADA
+            </a>
+            <a href="#servico-dedetizadora" class="block hover:text-brand-orange transition leading-snug">
+              DEDETIZADORA
+            </a>
+            <a href="#servico-valvula-hydra" class="block hover:text-brand-orange transition leading-snug">
+              VÁLVULA DE HYDRA
+            </a>
+            <a href="#servico-portas-janelas" class="block hover:text-brand-orange transition leading-snug">
+              ASSENTAMENTO DE PORTAS E JANELAS
+            </a>
+            <a href="#servico-jardim" class="block hover:text-brand-orange transition leading-snug">
+              MANUTENÇÃO DE JARDIM
+            </a>
+            <a href="#servico-ventilador" class="block hover:text-brand-orange transition leading-snug">
+              CONSERTO DE VENTILADOR
+            </a>
+            <a href="#servico-bomba" class="block hover:text-brand-orange transition leading-snug">
+              CONSERTO DE BOMBA
+            </a>
+            <a href="#servico-encanador" class="block hover:text-brand-orange transition leading-snug">
+              ENCANADOR
+            </a>
+            <a href="#servico-eletrica" class="block hover:text-brand-orange transition leading-snug">
+              ELÉTRICA
+            </a>
+            <a href="#servico-caca-vazamentos" class="block text-brand-orange hover:text-brand-orangeHover transition leading-snug">
+              CAÇA VAZAMENTOS
+            </a>
           </div>
         </div>
         <a href="#orcamento" class="hover:text-brand-sky transition">CONTATO</a>
@@ -374,14 +408,14 @@
         </h2>
       </div>
 
-      <!-- Grade 3 Colunas com Foto Superior + Caixa Branca Sobreposta Centralizada -->
+      <!-- Grade Completa de 12 Serviços Individuais (Foto + Caixa Branca Sobreposta Centralizada) -->
       <div class="grid md:grid-cols-3 gap-x-8 gap-y-12">
 
-        <!-- CARD 1 (DESTAQUE): Conserto de Geladeiras e Freezers -->
-        <div class="group flex flex-col">
+        <!-- CARD 1: Conserto de Geladeira, Freezer e Balcão Refrigerado -->
+        <div id="servico-refrigeracao" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
             <img src="img/servico-refrigeracao.jpg"
-                 alt="Manutenção e Conserto de Geladeiras e Freezers"
+                 alt="Conserto de Geladeira, Freezer e Balcão Refrigerado"
                  class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
@@ -390,13 +424,13 @@
                 <i class="fa-solid fa-snowflake"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Geladeiras e Freezers
+                Geladeiras, Freezers e Balcões
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de conserto e manutenção de geladeiras, freezers e frigobares para sua residência ou empresa? Temos a solução no local.
+                Precisa de conserto e manutenção de geladeiras, freezers, frigobares e balcões refrigerados para sua residência ou empresa? Temos a solução.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20manuten%C3%A7%C3%A3o/conserto%20de%20*Geladeira%20ou%20Freezer*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20manuten%C3%A7%C3%A3o/conserto%20de%20*Geladeira,%20Freezer%20ou%20Balc%C3%A3o%20Refrigerado*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -405,8 +439,8 @@
           </div>
         </div>
 
-        <!-- CARD 2 (DESTAQUE): Ar-Condicionado -->
-        <div class="group flex flex-col">
+        <!-- CARD 2: Ar-Condicionado (Climatização) -->
+        <div id="servico-ar-condicionado" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
             <img src="img/servico-ar-condicionado.jpg"
                  alt="Instalação, Manutenção e Higienização de Ar-Condicionado"
@@ -421,7 +455,7 @@
                 Ar-Condicionado
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de instalação, manutenção preventiva, carga de gás ou higienização de ar-condicionado para sua residência ou empresa? Temos a solução.
+                Precisa de instalação, manutenção preventiva/corretiva ou higienização de ar-condicionado para sua residência ou empresa? Temos a solução.
               </p>
             </div>
             <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20*Ar-Condicionado*%20(instala%C3%A7%C3%A3o,%20manuten%C3%A7%C3%A3o%20ou%20limpeza)."
@@ -433,39 +467,11 @@
           </div>
         </div>
 
-        <!-- CARD 3 (DESTAQUE): Refrigeração Comercial e Balcões -->
-        <div class="group flex flex-col">
-          <div class="h-72 w-full overflow-hidden bg-slate-200">
-            <img src="img/destaque-refrigeracao-ar.jpg"
-                 alt="Manutenção de Balcões Refrigerados e Refrigeração Comercial"
-                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
-          </div>
-          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
-            <div>
-              <div class="text-brand-orange text-3xl mb-3">
-                <i class="fa-solid fa-temperature-arrow-down"></i>
-              </div>
-              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Refrigeração Comercial
-              </h3>
-              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de manutenção urgente em balcões refrigerados, expositores e freezers comerciais para o seu negócio? Temos a solução.
-              </p>
-            </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20manuten%C3%A7%C3%A3o%20em%20*Refrigera%C3%A7%C3%A3o%20Comercial%20/%20Balc%C3%A3o%20Refrigerado*."
-               target="_blank" rel="noopener noreferrer"
-               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
-              <span>Leia Mais</span>
-              <i class="fa-solid fa-arrow-right text-[11px]"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- CARD 4: Encanamento Geral e Vazamentos -->
-        <div id="hidraulica" class="group flex flex-col scroll-mt-24">
+        <!-- CARD 3: Encanador / Encanamento Geral -->
+        <div id="servico-encanador" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
             <img src="img/servico-hidraulica.jpg"
-                 alt="Encanamento Geral e Caça-Vazamentos"
+                 alt="Encanador e Encanamento Geral"
                  class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
@@ -474,13 +480,13 @@
                 <i class="fa-solid fa-screwdriver-wrench"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Encanamento e Vazamentos
+                Encanamento Geral
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de serviços de encanamento geral, detecção de vazamentos e infiltrações para sua residência ou empresa? Temos a solução.
+                Precisa de serviços de encanamento para sua residência ou empresa? Temos a solução rápida e com garantia.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7os%20de%20*Encanamento%20Geral%20/%20Ca%C3%A7a-Vazamentos*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7os%20de%20*Encanador%20/%20Encanamento%20Geral*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -489,11 +495,11 @@
           </div>
         </div>
 
-        <!-- CARD 5: Válvula Hydra e Caixas Acopladas -->
-        <div class="group flex flex-col">
+        <!-- CARD 4: Válvula de Hydra -->
+        <div id="servico-valvula-hydra" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
             <img src="img/servico-hydra-vaso.jpg"
-                 alt="Conserto de Válvula Hydra, Caixas Acopladas e Vasos Sanitários"
+                 alt="Manutenção e Reparo de Válvula Hydra"
                  class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
@@ -502,13 +508,13 @@
                 <i class="fa-solid fa-faucet-drip"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Válvula Hydra e Caixa Acoplada
+                Válvula Hydra
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de serviços de Válvula Hydra, conserto de caixas acopladas e manutenção de vasos para sua residência ou empresa? Temos a solução.
+                Precisa de serviços de Válvula de Hydra para sua residência ou empresa? Temos a solução.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20conserto%20em%20*V%C3%A1lvula%20Hydra%20/%20Caixa%20Acoplada*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20conserto%20em%20*V%C3%A1lvula%20Hydra*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -517,11 +523,39 @@
           </div>
         </div>
 
-        <!-- CARD 6: Consertos de Bomba e Desentupimento -->
-        <div class="group flex flex-col">
+        <!-- CARD 5: Consertos de Bomba -->
+        <div id="servico-bomba" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/destaque-refrigeracao-ar.jpg"
+                 alt="Consertos de Bomba de Água e Pressurizadores"
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-gauge-high"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Consertos de Bomba
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de serviços de conserto de bomba de água para sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20*Conserto%20de%20Bomba%20de%20%C3%81gua*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 6: Desentupimento -->
+        <div id="servico-desentupimento" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
             <img src="img/servico-hidraulica.jpg"
-                 alt="Conserto de Bombas de Água e Desentupimento de Pias e Ralos"
+                 alt="Desentupimento de Pias, Ralos, Vasos e Esgotos"
                  class="w-full h-full object-cover object-right group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
@@ -530,13 +564,13 @@
                 <i class="fa-solid fa-sink"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Bombas e Desentupimento
+                Desentupimento
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de conserto de bombas de água ou desentupimento de pias, ralos e vasos para sua residência ou empresa? Temos a solução.
+                Precisa de serviços de desentupimento de pias, ralos, vasos e esgotos para sua residência ou empresa? Temos a solução.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20*Conserto%20de%20Bomba%20/%20Desentupimento*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20*Desentupimento*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -545,26 +579,26 @@
           </div>
         </div>
 
-        <!-- CARD 7: Elétrica e Ventiladores -->
-        <div id="eletrica" class="group flex flex-col scroll-mt-24">
+        <!-- CARD 7: Caça Vazamentos / Detecção de Vazamentos -->
+        <div id="servico-caca-vazamentos" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
-            <img src="img/servico-eletrica.jpg"
-                 alt="Eletricista Residencial e Instalação de Ventiladores"
-                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="img/servico-hidraulica.jpg"
+                 alt="Caça Vazamentos e Reparo de Infiltrações"
+                 class="w-full h-full object-cover object-left group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
             <div>
               <div class="text-brand-orange text-3xl mb-3">
-                <i class="fa-solid fa-bolt"></i>
+                <i class="fa-solid fa-magnifying-glass-location"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Elétrica e Ventiladores
+                Detecção de Vazamentos
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de eletricista residencial/predial ou conserto e instalação de ventiladores para sua residência ou empresa? Temos a solução.
+                Precisa de serviços de Caça Vazamentos e reparo de infiltrações para sua residência ou empresa? Temos a solução.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20*El%C3%A9trica%20/%20Ventiladores*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20de%20*Ca%C3%A7a%20Vazamentos%20/%20Detec%C3%A7%C3%A3o%20de%20Vazamentos*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -573,26 +607,26 @@
           </div>
         </div>
 
-        <!-- CARD 8: Portas, Fechaduras e Reparos -->
-        <div id="alvenaria" class="group flex flex-col scroll-mt-24">
+        <!-- CARD 8: Caixas Acopladas e Manutenção de Vasos -->
+        <div id="servico-caixa-acoplada" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
-            <img src="img/servico-reparos.jpg"
-                 alt="Assentamento de Portas, Fechaduras e Pequenos Reparos"
-                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+            <img src="img/servico-hydra-vaso.jpg"
+                 alt="Conserto de Caixas Acopladas e Manutenção de Vasos Sanitários"
+                 class="w-full h-full object-cover object-bottom group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
             <div>
               <div class="text-brand-orange text-3xl mb-3">
-                <i class="fa-solid fa-door-open"></i>
+                <i class="fa-solid fa-toilet"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Portas, Fechaduras e Reparos
+                Caixas Acopladas e Vasos
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de assentamento e ajuste de portas, fechaduras, janelas e pequenos reparos para sua residência ou empresa? Temos a solução.
+                Precisa de serviços de Caixas Acopladas e Vasos Sanitários para sua residência ou empresa? Temos a solução.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7o%20em%20*Portas,%20Fechaduras%20ou%20Reparos%20Gerais*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20conserto%20em%20*Caixa%20Acoplada%20/%20Vaso%20Sanit%C3%A1rio*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -601,11 +635,11 @@
           </div>
         </div>
 
-        <!-- CARD 9: Dedetização e Jardinagem -->
-        <div id="jardim" class="group flex flex-col scroll-mt-24">
+        <!-- CARD 9: Dedetizadora -->
+        <div id="servico-dedetizadora" class="group flex flex-col scroll-mt-24">
           <div class="h-72 w-full overflow-hidden bg-slate-200">
             <img src="img/servico-dedetizacao.jpg"
-                 alt="Serviços de Dedetização e Manutenção de Jardim"
+                 alt="Serviços de Dedetização e Controle de Pragas"
                  class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
           </div>
           <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
@@ -614,13 +648,181 @@
                 <i class="fa-solid fa-shield-virus"></i>
               </div>
               <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
-                Dedetização e Jardinagem
+                Dedetização
               </h3>
               <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
-                Precisa de serviços de dedetização, controle de pragas e manutenção de jardim para sua residência ou empresa? Temos a solução.
+                Precisa de serviços de Dedetização para sua residência ou empresa? Temos a solução contra pragas urbanas.
               </p>
             </div>
-            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7os%20de%20*Dedetiza%C3%A7%C3%A3o%20ou%20Jardinagem*."
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20servi%C3%A7os%20de%20*Dedetiza%C3%A7%C3%A3o*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 10: Elétrica -->
+        <div id="servico-eletrica" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/servico-eletrica.jpg"
+                 alt="Eletricista Residencial e Predial"
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Elétrica Residencial e Predial
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de eletricista para disjuntores, tomadas, fiação e iluminação em sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20um%20*Eletricista*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 11: Conserto de Ventilador -->
+        <div id="servico-ventilador" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/hero-tecnico.jpg"
+                 alt="Conserto e Instalação de Ventilador de Teto e Parede"
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-fan"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Conserto de Ventilador
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de instalação ou conserto de ventiladores de teto e parede para sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20*Conserto%20ou%20Instala%C3%A7%C3%A3o%20de%20Ventilador*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 12: Assentamento de Portas, Janelas e Manutenção de Jardim -->
+        <div id="servico-portas-janelas" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/servico-reparos.jpg"
+                 alt="Assentamento de Portas, Fechaduras e Janelas"
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-door-open"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Assentamento de Portas e Janelas
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de assentamento de portas, fechaduras, janelas e pequenos reparos para sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20*Assentamento%20de%20Portas,%20Fechaduras%20e%20Janelas*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 13: Manutenção de Jardim -->
+        <div id="servico-jardim" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/servico-jardinagem.jpg"
+                 alt="Manutenção de Jardim, Corte de Grama e Poda"
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Manutenção de Jardim
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de serviços de manutenção de jardim, poda e corte de grama para sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20*Manuten%C3%A7%C3%A3o%20de%20Jardim*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 14: Ralos, Pias e Sifões -->
+        <div id="servico-ralos" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/servico-hidraulica.jpg"
+                 alt="Manutenção de Ralos, Pias e Sifões"
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-faucet"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Ralos e Pias
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de serviços de manutenção e desentupimento de ralos e pias para sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20manuten%C3%A7%C3%A3o%20em%20*Ralos%20e%20Pias*."
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
+              <span>Leia Mais</span>
+              <i class="fa-solid fa-arrow-right text-[11px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CARD 15: Pequenos Reparos de Pedreiro e Fixações -->
+        <div id="servico-pedreiro" class="group flex flex-col scroll-mt-24">
+          <div class="h-72 w-full overflow-hidden bg-slate-200">
+            <img src="img/servico-reparos.jpg"
+                 alt="Pequenos Reparos de Pedreiro e Fixações em Geral"
+                 class="w-full h-full object-cover object-right group-hover:scale-105 transition duration-500" />
+          </div>
+          <div class="relative z-10 -mt-24 mx-4 sm:mx-5 bg-white px-6 py-8 text-center shadow-card group-hover:shadow-card-hover transition flex-1 flex flex-col justify-between border border-slate-100">
+            <div>
+              <div class="text-brand-orange text-3xl mb-3">
+                <i class="fa-solid fa-hammer"></i>
+              </div>
+              <h3 class="font-heading font-extrabold text-lg text-neutral-900 mb-3">
+                Reparos de Pedreiro e Fixações
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-5">
+                Precisa de pequenos reparos de alvenaria, pisos, azulejos e fixações para sua residência ou empresa? Temos a solução.
+              </p>
+            </div>
+            <a href="https://wa.me/5515974015262?text=Ol%C3%A1!%20Preciso%20de%20*Pequenos%20Reparos%20de%20Pedreiro%20/%20Fixa%C3%A7%C3%B5es*."
                target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-1.5 text-brand-orange hover:text-brand-orangeHover font-bold text-xs uppercase tracking-wider transition">
               <span>Leia Mais</span>
@@ -835,12 +1037,18 @@
             <select id="servico" required
                     class="w-full px-3.5 py-2.5 bg-white border border-slate-300 focus:border-brand-orange outline-none text-xs sm:text-sm">
               <option value="" disabled selected>Selecione...</option>
-              <option value="Manutenção de Geladeira / Freezer / Balcão">❄️ Geladeira / Freezer / Balcão</option>
-              <option value="Ar-Condicionado (Instalação / Manutenção / Limpeza)">❄️ Ar-Condicionado</option>
-              <option value="Encanamento / Vazamentos / Válvula Hydra">💧 Hidráulica / Vazamento / Hydra</option>
-              <option value="Conserto de Bomba de Água / Desentupimento">💧 Bomba de Água / Desentupimento</option>
-              <option value="Eletricista / Ventiladores">⚡ Elétrica / Ventiladores</option>
-              <option value="Portas, Fechaduras, Jardim ou Dedetização">🛠️ Portas, Reparos, Jardim ou Pragas</option>
+              <option value="Conserto de Geladeira / Freezer / Refrigeração">❄️ Geladeira / Freezer / Refrigeração</option>
+              <option value="Ar-Condicionado (Instalação / Manutenção / Limpeza)">❄️ Ar-Condicionado (Climatização)</option>
+              <option value="Desentupimento">💧 Desentupimento</option>
+              <option value="Conserto de Caixa Acoplada">💧 Conserto de Caixa Acoplada</option>
+              <option value="Dedetizadora">🐜 Dedetizadora</option>
+              <option value="Válvula de Hydra">💧 Válvula de Hydra</option>
+              <option value="Assentamento de Portas e Janelas">🚪 Assentamento de Portas e Janelas</option>
+              <option value="Manutenção de Jardim">🌿 Manutenção de Jardim</option>
+              <option value="Conserto de Ventilador">🌀 Conserto de Ventilador</option>
+              <option value="Conserto de Bomba">⚙️ Conserto de Bomba</option>
+              <option value="Encanador / Caça Vazamentos / Ralos e Pias">🔧 Encanador / Caça Vazamentos / Ralos</option>
+              <option value="Eletricista / Reparos de Pedreiro e Fixações">⚡ Elétrica / Pequenos Reparos</option>
             </select>
           </div>
           <div>
