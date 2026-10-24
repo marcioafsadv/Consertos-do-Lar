@@ -8,7 +8,7 @@ Site institucional e Landing Page de alta conversão para **Conserto do Lar (Seu
 
 ## 📋 Dados do Cliente Configurados
 - **Marca:** Conserto do Lar — Seu Marido de Aluguel 24h
-- **Telefone / WhatsApp Plantão 24h:** [(15) 97401-5262](https://wa.me/5515974015262)
+- **Telefone / WhatsApp Plantão 24h:** [(15) 99198-9284](https://wa.me/5515991989284)
 - **Endereço Base:** Rua Carlos Zanetti, 200 — Votorantim/SP
 - **E-mail:** seumaridodealuguel24h@gmail.com
 
@@ -25,7 +25,7 @@ Site institucional e Landing Page de alta conversão para **Conserto do Lar (Seu
   5. **Jardinagem e Controle de Pragas:** Manutenção de jardins e dedetização.
 - **Integração Direta com WhatsApp:**
   - Cada card de serviço envia uma mensagem personalizada com a especialidade escolhida.
-  - Formulário de orçamento rápido que formata automaticamente os dados do cliente e abre a conversa no WhatsApp `(15) 97401-5262`.
+  - Formulário de orçamento rápido que formata automaticamente os dados do cliente e abre a conversa no WhatsApp `(15) 99198-9284`.
   - Botão flutuante estilo pílula (*"Oi, como posso ajudar?"*) e barra fixa inferior para dispositivos móveis.
 - **SEO Local Avançado:** Meta tags, Open Graph e dados estruturados **Schema.org (`HomeAndConstructionBusiness`)** otimizados para Votorantim e Sorocaba/SP.
 
