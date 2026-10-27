@@ -10,7 +10,7 @@ Site institucional e Landing Page de alta conversão para **Conserto do Lar (Seu
 - **Marca:** Conserto do Lar — Seu Marido de Aluguel 24h
 - **Telefone / WhatsApp Plantão 24h:** [(15) 99198-9284](https://wa.me/5515991989284)
 - **Endereço Base:** Rua Carlos Zanetti, 200 — Votorantim/SP
-- **E-mail:** seumaridodealuguel24h@gmail.com
+- **E-mail:** contato@seumaridodealuguel24h.com.br
 
 ---
 
